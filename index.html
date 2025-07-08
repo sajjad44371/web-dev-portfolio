@@ -4,23 +4,205 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Developer Portfolio</title>
+
+    <!-- font links -->
+     <script src="https://kit.fontawesome.com/38447ea4cc.js" crossorigin="anonymous"></script>
+
+    <!-- css links -->
+     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <!-- header start -->
-     <header>
+     <header class="header bg-primary">
+        <!-- navbar start -->
+        <nav>
+            <a href="index.html">Sa<span>jj</span>ad</a>
+            <ul>
+                <li><a href="">Portfolio</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href=""><button class="btn-primary">Hire Me</button></a></li>
+            </ul>
+        </nav>
+        <!-- navbar end -->
 
+        <!-- banner start -->
+         <div class="banner">
+            <div class="banner-content">
+                <h4>Hi, I  am</h4>
+                <h1>Sajjad</h1>
+                <p>I’m a Web Developer skilled in front-end and back-end technologies, currently pursuing a B.Sc. in CSE. I build responsive, user-friendly websites using HTML, CSS, JavaScript, PHP, and WordPress.</p>
+                <a href="" class="btn-primary btn-cv"><i class="fa-solid fa-download"></i>Download CV</a>
+                <a href="" class="btn-primary btn-cv"><i class="fa-solid fa-phone"></i>Contact</a>
+            </div>
+            <div class="banner-image">
+                <img src="images/banner.png" alt="">
+            </div>
+         </div>
+         <!-- banner end -->
      </header>
      <!-- header end -->
 
      <!-- main start -->
       <main>
+        <!-- about start -->
+        <section class="about bg-primary section-margin">
+            <div class="about-content">
+                <div class="section-title"><h2>About Me</h2></div>
+                <div class="section-description">
+                    <p>I’m a Web Designer & Developer skilled in HTML, CSS, JavaScript, PHP, MySQL, Bootstrap, jQuery, and WordPress. I create responsive, user-friendly websites and enjoy turning UI/UX designs into functional, clean code. Currently pursuing a B.Sc. in CSE, I’m focused on learning, building, and growing in the web development field.</p>
+                </div>
+                <div class="about-adress">
+                    <div class="item">
+                        <p>Name:</p>
+                        <h3>Md. Sajjad Hossain</h3>
+                    </div>
+                    <div class="item">
+                        <p>Email:</p>
+                        <h3>dev.sajjad.info@gmail.com</h3>
+                    </div>
+                    <div class="item">
+                        <p>Date of Birth:</p>
+                        <h3>01/01/2002</h3>
+                    </div>
+                    <div class="item">
+                        <p>From:</p>
+                        <h3>Dhaka,Bangladesh</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- about end -->
 
+        <!-- skills start -->
+         <section class="skills section-margin text-center">
+            <div class="section-title"><h2>What I do</h2></div>
+            <div class="section-description">
+                <p>I have more than 2 years experience building software for clients all over the world. Below is a quick overview of my main technical skill sets and technologies i use. Want to find out more about my experience? Check out my online resume and project portfolio.</p>
+            </div>
+            <div class="skills-container">
+                <!-- item -->
+                <div class="skill-item">
+                    <img src="images/icons/js.png" alt="js">
+                    <h4>Vanilla JavaScript</h4>
+                    <p>Core JavaScript without any frameworks or libraries. Used to create dynamic, interactive features and handle DOM manipulation, events, and logic from scratch.
+                    </p>
+                </div>
+                <!-- item -->
+                <div class="skill-item">
+                    <img src="images/icons/react.png" alt="react">
+                    <h4>React</h4>
+                    <p>A popular JavaScript library for building fast, reusable, and component-based user interfaces. Ideal for single-page applications and modern front-end development.
+                    </p>
+                </div>
+                <!-- item -->
+                <div class="skill-item">
+                    <img src="images/icons/nodejs.png" alt="nodejs">
+                    <h4>Node.js</h4>
+                    <p>A JavaScript runtime used for server-side development. Enables building scalable and fast backend services like APIs and real-time applications using JavaScript.
+                    </p>
+                </div>
+                <!-- item -->
+                <div class="skill-item">
+                    <img src="images/icons/mongo.png" alt="mongodb">
+                    <h4>MongoDB</h4>
+                    <p>A NoSQL database that stores data in flexible, JSON-like documents. Great for handling large volumes of data, often used with Node.js in full-stack applications.
+                    </p>
+                </div>
+            </div>
+         </section>
+        <!-- skills end -->
+
+        <!-- resume start -->
+         <section class="resume section-margin">
+            <div class="section-title text-center">
+                <h2>A summary of My Resume</h2>
+            </div>
+            <div class="resume-container">
+
+                <div class="resume-items">
+                    <h4 class="resume-title">My Education</h4>
+                    <!-- single item -->
+                    <div class="resume-single-item">
+                        <h3>Bachelor in Computer Engineering</h3>
+                        <h4>Dhaka International University / 2023 - Now</h4>
+                        <p>I’m currently pursuing a B.Sc. in Computer Science and Engineering, where I’m building a strong foundation in software, programming, and problem-solving. This journey is shaping my skills for real-world tech solutions and continuous learning.
+                        </p>
+                    </div>
+                    <hr>
+                    <!-- single item -->
+                    <div class="resume-single-item">
+                        <h3>Bachelor in Computer Engineering</h3>
+                        <h4>Dhaka International University / 2023 - Now</h4>
+                        <p>I’m currently pursuing a B.Sc. in Computer Science and Engineering, where I’m building a strong foundation in software, programming, and problem-solving. This journey is shaping my skills for real-world tech solutions and continuous learning.
+                        </p>
+                    </div>
+                    <hr>
+                    <!-- single item -->
+                    <div class="resume-single-item">
+                        <h3>Bachelor in Computer Engineering</h3>
+                        <h4>Dhaka International University / 2023 - Now</h4>
+                        <p>I’m currently pursuing a B.Sc. in Computer Science and Engineering, where I’m building a strong foundation in software, programming, and problem-solving. This journey is shaping my skills for real-world tech solutions and continuous learning.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- experience -->
+                 <div class="resume-items">
+                    <h4 class="resume-title">My Experience</h4>
+                    <!-- single item -->
+                    <div class="resume-single-item">
+                        <h3>Bachelor in Computer Engineering</h3>
+                        <h4>Dhaka International University / 2023 - Now</h4>
+                        <p>I’m currently pursuing a B.Sc. in Computer Science and Engineering, where I’m building a strong foundation in software, programming, and problem-solving. This journey is shaping my skills for real-world tech solutions and continuous learning.
+                        </p>
+                    </div>
+                    <hr>
+                    <!-- single item -->
+                    <div class="resume-single-item">
+                        <h3>Bachelor in Computer Engineering</h3>
+                        <h4>Dhaka International University / 2023 - Now</h4>
+                        <p>I’m currently pursuing a B.Sc. in Computer Science and Engineering, where I’m building a strong foundation in software, programming, and problem-solving. This journey is shaping my skills for real-world tech solutions and continuous learning.
+                        </p>
+                    </div>
+                    <hr>
+                    <!-- single item -->
+                    <div class="resume-single-item">
+                        <h3>Bachelor in Computer Engineering</h3>
+                        <h4>Dhaka International University / 2023 - Now</h4>
+                        <p>I’m currently pursuing a B.Sc. in Computer Science and Engineering, where I’m building a strong foundation in software, programming, and problem-solving. This journey is shaping my skills for real-world tech solutions and continuous learning.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="btn-cv-2">
+                <a href="" class="btn-primary btn-cv"><i class="fa-solid fa-download"></i>Download CV</a>
+            </div>
+         </section>
+        <!-- resume start -->
       </main>
       <!-- main end -->
 
       <!-- footer start -->
-       <footer>
-        
+       <footer class="bg-primary footer">
+        <div class="footer-content">
+            <h2>Lets Connect</h2>
+            <p>Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET, Monday through Friday.</p>
+            <div class="social-links">
+                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div> 
+        <div class="footer-form">
+            <form action="#" class="form">
+                <h3>Let’s Message me</h3>
+                <input type="text" name="" id="name" placeholder="Your name">
+                <input type="email" name="" id="email" placeholder="Your email">
+                <textarea name="" id="message" placeholder="Message" rows="5"></textarea>
+                <input type="submit" value="Submit" class="btn-primary">
+            </form>
+        </div>
        </footer>
        <!-- footer end -->
 </body>
