@@ -116,7 +116,7 @@ nav ul li a:hover{
     color: var(--dark2);
 }
 .banner-content h1{
-    font-size: 85px;
+    font-size: 75px;
     font-weight: bold;
     color: var(--dark1);
     padding: 50px 0;
